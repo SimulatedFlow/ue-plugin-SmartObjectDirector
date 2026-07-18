@@ -6,11 +6,11 @@
 	"FriendlyName": "Smart Object Director",
 	"Description": "Dynamic runtime extension framework for Unreal Engine Smart Objects, featuring dynamic registration, motion warping alignments, player interactions, network guardrails, and StateTree/GAS adapters.",
 	"Category": "Gameplay",
-	"CreatedBy": "Silvan Teufel — Teufel-Engineering.com",
-	"CreatedByURL": "https://teufel-engineering.com",
-	"DocsURL": "https://wiki.teufel-engineering.com/en/SmartObjectDirector",
+	"CreatedBy": "Simulated Flow",
+	"CreatedByURL": "https://github.com/SimulatedFlow",
+	"DocsURL": "https://github.com/SimulatedFlow/ue-plugin-SmartObjectDirector",
 	"MarketplaceURL": "",
-	"SupportURL": "mailto:info@teufel-engineering.com",
+	"SupportURL": "mailto:simulatedflow@gmail.com",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
@@ -20,13 +20,21 @@
 			"Name": "SmartObjectDirector",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
-			"PlatformAllowList": [ "Win64", "Mac", "Linux" ]
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
 		},
 		{
 			"Name": "SmartObjectDirectorEditor",
 			"Type": "Editor",
 			"LoadingPhase": "PostEngineInit",
-			"PlatformAllowList": [ "Win64", "Mac", "Linux" ]
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
 		}
 	],
 	"Plugins": [
