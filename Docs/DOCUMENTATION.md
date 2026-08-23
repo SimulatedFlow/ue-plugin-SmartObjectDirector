@@ -1,7 +1,7 @@
 # Smart Object Director — Documentation
 
-**Version:** 1.0.0  •  **Engine:** Unreal Engine 5.8  •  **Author:** Simulated Flow
-**Support:** simulatedflow@gmail.com  •  **Category:** Gameplay / Code Plugin
+**Version:** 1.0.0  •  **Engine:** Unreal Engine 5.8  •  **Author:** Silvan Teufel
+**Support:** teufelsilvan@gmail.com  •  **Category:** Gameplay / Code Plugin
 
 Smart Object Director is a C++ runtime-extension framework for Epic's Smart Object system. It makes Smart Objects easy to **spawn, register and modify at runtime**, exposes a **server-authoritative claim/interaction bridge** for both players and AI, aligns characters to slot entry points with **Motion Warping** (with a graceful fallback), and ships a native **StateTree task** plus an **editor visualizer** for fast debugging.
 
@@ -316,6 +316,6 @@ Enable verbose logging: `log LogSmartObjectDirector Verbose` in the console.
 
 ## 13. Support
 
-- **Email:** simulatedflow@gmail.com
-- **Author:** Simulated Flow
+- **Email:** teufelsilvan@gmail.com
+- **Author:** Silvan Teufel
 - When reporting an issue, include your engine version, platform, a `LogSmartObjectDirector` excerpt and repro steps.
