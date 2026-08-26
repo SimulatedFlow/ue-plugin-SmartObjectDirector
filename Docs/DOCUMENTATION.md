@@ -32,7 +32,7 @@ Smart Object Director is a C++ runtime-extension framework for Epic's Smart Obje
 | Engine | Unreal Engine **5.8** |
 | Project type | C++ **or** Blueprint (a C++ toolchain is required to build the plugin from source) |
 | Enabled engine plugins | `SmartObjects`, `GameplayAbilities`, `MotionWarping`, `StateTree` (auto-enabled as plugin dependencies) |
-| Platforms | Win64, Mac, Linux |
+| Platforms | Win64 |
 
 The four dependency plugins are declared in `SmartObjectDirector.uplugin` and are enabled automatically when Smart Object Director is enabled.
 
@@ -280,8 +280,8 @@ The visualizer is part of the editor-only module and has no effect on packaged/s
 | | |
 |---|---|
 | **Engine version** | Unreal Engine 5.8 (`EngineVersion: 5.8.0`) |
-| **Runtime platforms** | Win64, Mac, Linux (`PlatformAllowList`) |
-| **Editor platforms** | Win64, Mac, Linux |
+| **Runtime platforms** | Win64 (`PlatformAllowList`) |
+| **Editor platforms** | Win64 |
 | **Build targets** | Development & Shipping |
 | **Module types** | `SmartObjectDirector` (Runtime) · `SmartObjectDirectorEditor` (Editor) |
 | **Content** | `CanContainContent: true` |

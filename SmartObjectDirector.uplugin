@@ -8,7 +8,7 @@
 	"Category": "Gameplay",
 	"CreatedBy": "Silvan Teufel",
 	"CreatedByURL": "https://silvan.teufel-engineering.com",
-	"DocsURL": "https://github.com/SimulatedFlow/ue-plugin-SmartObjectDirector",
+	"DocsURL": "https://wiki.teufel-engineering.com/en/SmartObjectDirector/documentation",
 	"MarketplaceURL": "",
 	"SupportURL": "mailto:teufelsilvan@gmail.com",
 	"CanContainContent": true,
@@ -21,9 +21,7 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"PlatformAllowList": [
-				"Win64",
-				"Mac",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
@@ -31,9 +29,7 @@
 			"Type": "Editor",
 			"LoadingPhase": "PostEngineInit",
 			"PlatformAllowList": [
-				"Win64",
-				"Mac",
-				"Linux"
+				"Win64"
 			]
 		}
 	],

@@ -33,7 +33,7 @@ Epic's Smart Object system is powerful for AAA AI environments — but it's pain
 | **Engine version** | Unreal Engine 5.8 |
 | **Type** | C++ Code Plugin (full source included) |
 | **Modules** | SmartObjectDirector (Runtime) · SmartObjectDirectorEditor (Editor) |
-| **Runtime platforms** | Win64, Mac, Linux |
+| **Runtime platforms** | Win64 |
 | **Build targets** | Development & Shipping |
 | **Engine plugin deps** | SmartObjects, GameplayAbilities, MotionWarping, StateTree (auto-enabled) |
 | **Network** | Server-authoritative, replication-ready |
